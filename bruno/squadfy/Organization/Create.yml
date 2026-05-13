@@ -1,0 +1,18 @@
+info:
+  name: Create
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3333/api/organizations
+  body:
+    type: json
+    data: "{\r\n  \"name\": \"Squadfy\"\r\n}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

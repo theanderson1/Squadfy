@@ -1,0 +1,17 @@
+info:
+  name: List
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://localhost:3333/api/organizations
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNDc0MjcyYi01NDNlLTQzMzAtYWNiYS02NDRjNjZhNGZiYTEiLCJvcmdhbml6YXRpb25JZCI6IjhlNTYxMDE2LTk2OTktNDk2ZS1iYjcwLTM4NTZhMDlkMjM3OSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzc4NzA0MDE1LCJleHAiOjE3Nzg3OTA0MTV9.LtNzlnMfW2Zw7XEuOMlusvudvRTRG1zaQM2eq1AYeV4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

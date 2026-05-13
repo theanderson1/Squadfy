@@ -1,0 +1,25 @@
+info:
+  name: Create
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:3333/api/knowledge
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Licença maternidade",
+        "content": "O colaborador tem direito a 6 meses de licença maternidade.",
+        "visibility": "PUBLIC"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3YzFjNGFmZS04N2JiLTQ5NDMtYTkzOC04OGJiMjIxNzdmNDMiLCJvcmdhbml6YXRpb25JZCI6IjQ5YzhiNmU3LTQwZmItNDFiNS04ZTViLThiMTljMTdmYjMwOCIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzc4NzAxMjE1LCJleHAiOjE3Nzg3ODc2MTV9.ZOUbM9oaoLMNgJYGi_1_F33itqr5x1aXIFj4k_Gc7XU
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
