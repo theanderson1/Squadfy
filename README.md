@@ -702,4 +702,4 @@ npm run test -- --clearCache
 
 # 👨‍💻 Autor
 
-Desenvolvido por **Willians Oliveira**
+Desenvolvido por **Anderson Willians Guedes Oliveira**
