@@ -624,40 +624,6 @@ As requests já estão organizadas em:
 
 ---
 
-# 📌 Fluxo de Uso da Aplicação
-
-1️⃣ **Registrar usuário**
-```bash
-POST /api/auth/register
-```
-
-2️⃣ **Fazer login**
-```bash
-POST /api/auth/login
-```
-
-3️⃣ **Criar organização**
-```bash
-POST /api/organizations
-```
-
-4️⃣ **Criar documentos de conhecimento**
-```bash
-POST /api/knowledge-documents
-```
-
-5️⃣ **Consultar agente com perguntas**
-```bash
-POST /api/agents/query
-```
-
-6️⃣ **Visualizar histórico de consultas**
-```bash
-GET /agent-logs/
-```
-
----
-
 # 🚀 Recursos Principais
 
 ✅ **Autenticação JWT** - Login seguro com tokens
