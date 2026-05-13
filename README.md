@@ -8,7 +8,6 @@ API REST para gerenciamento de **usuários, organizações, agentes de IA e docu
 
 * Node.js
 * NestJS
-* Express
 * PostgreSQL
 * Drizzle ORM
 * TypeScript
